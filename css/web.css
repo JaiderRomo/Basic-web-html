@@ -1,0 +1,112 @@
+.container{
+    
+    display: flex;
+    flex-direction: column;
+}
+body
+{
+    background: white;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white; 
+    padding: 10px 20px;
+} 
+
+.carrusel{
+    margin-top: 5px;
+    width: auto;
+    height: 25rem;
+    background: white;
+    border: 1px solid black;
+}
+
+.informacion{
+    margin-top: 5px;
+    display: flex;
+}
+
+.projects{
+    width: 30rem;
+    height: 22rem;
+    background: white;
+    border: 1px solid black;
+    margin-right: 2px;
+}
+
+.experiencia{
+    width: 30rem;
+    height: 22rem;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.educacion{
+    width: 30rem;
+    height: 22rem;
+    background: white;
+    border: 1px solid black;
+    margin-left: 2px;
+}
+
+.reviws{
+    display: flex;
+    margin-top: 5px;
+    width: auto;
+    height: 25rem;
+    background: white;
+    border: 1px solid black;
+
+}
+h2{
+    text-align: center;
+}
+
+.card{
+    width: 260px;
+    height: 140px;
+    background: white;
+    margin: auto;
+    border-radius: 9px;
+    border: 1px solid black;
+}
+
+#exp-1{
+   
+    height: 12rem;
+    width: 29rem;
+    background: white;
+    border: 1px solid black;
+    margin-bottom: 2px;
+}
+
+
+.contacto{
+    display: flex;
+    margin-top: 5px;
+    width: auto;
+    height: 25rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid black
+
+}
+
+.form-contac{
+    width: 15rem;
+    height: 15rem;
+    background: blanchedalmond;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
