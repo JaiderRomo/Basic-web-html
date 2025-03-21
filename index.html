@@ -1,75 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/web.css">
-    <title>My portafolio</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Orbitron:wght@400..900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/web.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <!-- <link rel="stylesheet" href="css/dibujo.css"> -->
+        <title>My portafolio</title>
+    </head>
 
-<body>
-    <div class="container">
-        <header>
+    <body>
+        <div class="container">
+            <div class="superior">
+                <header>
+                    <div class="name">
+                        <div class="logo">
 
-            <div class="logo">
-                <!-- <img src="" alt=""> -->
-                <h1>jaider romo</h1>
-            </div>
-            <nav>
-                <a href="#">Inicio / </a>
-                <a href="#projects">Proyectos / </a>
-                <a href="#educacion">Articulos / </a>
-                <a href="#contacto">Contacto</a>
-
-            </nav>
-        </header>
-        <!-- main -->
-        <main>
-            <div class="carrusel" id="carrusel"></div>
-            <div class="informacion" id="informacion">
-                <div class="projects" id="projects">
-                    <h2>Poryectos</h2>
-                </div>
-                <div class="experiencia" id="experiencia">
-                    <div id="exp-1">
-                        <h2>Experiencia</h2>
+                        </div>
+                        <!-- <h1 class="#titulo-name">jaider romo</h1> -->
                     </div>
-                    <div id="exp-1"></div>
+                    <nav>
+                        <ul>
+                            <li><a class="ancla" href="#">Inicio</a></li>
+                            <li><a class="ancla"
+                                    href="#projects">Proyectos</a></li>
+                            <li><a class="ancla"
+                                    href="#educacion">Articulos</a></li>
+                            <li><a class="ancla"
+                                    href="#contacto">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <!-- main -->
+                <main>
+
+                    <!-- carrusel -->
+                    <div class="carrusel" id="carrusel">
+                        <div class="carrusel-hijo1">
+                            <h2 class="animated-text">Front-end <br> Developer
+                            </h2>
+                            <p class="parrafo">Desarrollador Full Stack
+                                Ingeniero de
+                                software especializado en el desarrollo de
+                                aplicaciones web
+                                completas utilizando tecnologías modernas como
+                                JavaScript, Node.js, React y MongoDB.
+                                Experiencia
+                                en el diseño de sistemas escalables y
+                                eficientes.</p><br><br>
+                            <button class="btn-contac">Contactame</button>
+                        </div>
+
+                        <div class="carrusel-hijo2">
+                            <div class="circulo-padre">
+
+                                <!-- <img
+                                    src="img/un programador saludando con un estilo no realista y simple, con colores cálidos.png"
+                                    alt> -->
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
-                <div class="educacion" id="educacion">
-                    <h2>Educacion</h2>
+
+                <!-- indormacion -->
+                <div class="informacion" id="informacion">
+                    <h2 class="skils">Skills</h2>
+                    <div class="infopadre1">
+                        <div class="cards" id="mycards">
+                            <i class="fa-solid fa-code"></i>
+                            <h2 class="title">Poryectos</h2>
+                        </div>
+                        <div class="cards" id="mycards">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <h2 class="title">Blog</h2>
+                        </div>
+                        <div class="cards" id="mycards">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <h2 class="title">Juega un poco</h2>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <h2>Habilidades tecnicas y blandas</h2>
+                        <div class="caja-padre">
+                            <div class="caja-hijo1">
+                                <div class="caja">
+                                    <i class="icono fa-brands fa-php"></i>
+                                    <h3 class="icontex">PHP</h3>
+                                </div>
+                                <div class="caja">
+                                    <i class="icono fa-brands fa-html5"></i>
+                                    <h3 class="icontex">HTML</h3>
+                                </div>
+                                <div class="caja">
+                                    <i class="icono fa-brands fa-css3-alt"></i>
+                                    <h3 class="icontex">CSS</h3>
+                                </div>
+                                <div class="caja">
+                                    <i class="icono fa-brands fa-java"></i>
+                                    <h3 class="icontex">Java</h3>
+                                </div>
+                                <div class="caja-m">
+                                    <i class="icono fa-brands fa-js"></i>
+                                    <h3 class="icontex">JavaScript</h3>
+                                </div>
+                                <div class="caja-m">
+                                    <i class="icono fa-brands fa-react"></i>
+                                    <h3 class="icontex">REACT</h3>
+                                </div>
+                                <div class="caja-m">
+                                    <i class="icono fa-brands fa-laravel"></i>
+                                    <h3 class="icontex">LARAVEL</h3>
+                                </div>
+                                <div class="caja-g">
+                                    <i class="icono fa-brands fa-android"></i>
+                                    <h3 class="icontex">ANDROID STUDIO</h3>
+                                </div>
+                            </div>
+                            <div class="caja-hijo2">
+                                <div class="caja-g">
+                                    <h3 class="icontex">Comunicación efectiva</h3>
+                                </div>
+                                <div class="caja-m">
+                                    <h3 class="icontex">Trabajo en equipo</h3>
+                                </div>
+                                <div class="caja-m">
+                                    <h3 class="icontex">Adaptabilidad</h3>
+                                </div>
+                                <div class="caja-m">
+                                    <h3 class="icontex">Gestión del tiempo</h3>
+                                </div>
+                                <div class="caja-g">
+                                    <h3 class="icontex">Aprendizaje continuo</h3>
+                                </div>
+                                <div class="caja">
+                                    <h3 class="icontex">Empatía</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="reviws" id="reviws">
+                        <div class="card" id="miCard">
+                            <h2>Mi Tarjeta</h2>
+                            <p>Haz clic en esta tarjeta</p>
+                        </div>
+    
+                        <div id="miModal" class="modal">
+                            <div class="modal-contenido">
+                                <span class="cerrar">&times;</span>
+                                <div class="card-padre">
+                                    <div class="card-tetris">
+                                        <canvas id="tetris" width="300"
+                                            height="600"></canvas>
+                                        <div id="info">
+                                            <p>Puntuacion:<span
+                                                    id="score">0</span></p>
+                                            <p>Nivel:<span
+                                                    id="level">1</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
                 </div>
-            </div>
-            <div class="reviws" id="reviws">
-                <h2>Reviws</h2>
-                <div class="card"></div>
-            </div>
-        </main>
 
-        <footer>
-            <div class="contacto" id="contacto">
-                <h2>contactame</h2>
+            </main>
 
-                <div class="form-contac">
-
-                    <label for="label" class="form-label">Nombre</label>
-                    <input type="text" name="nombre" id="nombre">
-
-                    <label for="correo" class="form-label">Correo</label>
-                    <input type="text" name="correo" id="correo">
-
-
-                    <label for="texto" class="form-label">Mensaje</label>
-                    <textarea name="textarea" id="textarea"></textarea>
-
-                    <button id="enviar">Enviar</button>
-                </div>
-
-
-            </div>
-        </footer>
-    </div>
-</body>
+            <footer>
+                <div class="contacto" id="contacto">
+                    <!-- <h2>contactame</h2>
+                    <div class="form-contac">
+                        <label for="label" class="form-label">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                        <label for="correo"
+                            class="form-label">Correo</label>
+                        <input type="text" name="correo" id="correo">
+                        <label for="texto"
+                            class="form-label">Mensaje</label>
+                        <textarea name="textarea" id="textarea"></textarea>
+                        <button id="enviar">Enviar</button>
+                    </div>
+                </div> -->
+            </footer>
+        </div>
+        <script src="js/cards.js"></script>
+        <script src="js/app.js"></script>
+    </body>
 
 </html>
